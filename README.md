@@ -1,5 +1,9 @@
 # zha_quirks
 
+List of quirks:
+
+- ts0601_cover.py (Tuya ZC-LS02 roller blind motor quirk for TS0601 _TZE284_koxaopnk)
+
 Create folder `/config/zha_quirks/`
 
 Update `configuration.yaml`
