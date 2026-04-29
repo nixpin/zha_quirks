@@ -17,6 +17,7 @@ class MotorDirection(t.enum8):
         control_dp=1,
         position_state_dp=3,
         position_control_dp=2,
+        invert=False,
     )
     .tuya_battery(dp_id=101)
     .tuya_enum(
@@ -26,5 +27,6 @@ class MotorDirection(t.enum8):
         translation_key="motor_direction",
         fallback_name="Motor direction",
     )
+    .tuya_enchantment(read_attr_spell=True, data_query_spell=True)
     .add_to_registry()
 )
